@@ -1,0 +1,40 @@
+body{
+    background-color:gray ;
+}
+
+.container{
+    display: flex;
+    
+    justify-content: center;
+    color: whitesmoke   ;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#resultado{
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cajero Automático</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./img/icono.jpg">
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="ms-3 mt-4">Banco Software</h1>
+    </div>
+    <br>
+    <section class="img">
+        <img src="img/otraimagendebanco.jpg" alt="" width="350px" height="300px">
+    </section>
+    <br>
+    <h3>Cajero Automatico</h3>
+    <div class="container mt-5 container-fluid">
+        <form id="cajeroForm">
+            <div class="form-group">
+                <label for="nombreUsuario">Nombre de Usuario</label>
+                <input type="text" class="form-control" id="nombreUsuario" required>
+            </div>
+            <div class="form-group">
+                <label for="cantidadRetiro" >Cantidad a Retirar ($)</label>
+                <input type="number" class="form-control" id="cantidadRetiro" min="1" required>
+            </div>
+            <button type="submit" class="btn btn-primary container-fluid">Realizar Retiro</button>
+        </form>
+    </div>
+    <br>
+    <div class="d-flex justify-content-center">
+        <div class="card " style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div id="resultado" class="mt-4" >El resultado aparecera despues de darle al boton de enviar.</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
